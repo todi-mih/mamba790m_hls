@@ -1,0 +1,22 @@
+Requirements
+============
+
+Hardware:
+  Xilinx Alveo U55N      
+
+Toolchain:
+  Ubuntu 22.04.5 LTS
+  Vitis / v++ 2022.2
+  Vitis HLS 2022.2
+  XRT 2.15.225
+  Platform: xilinx_u55n_gen3x4_xdma_1_202110_1
+  Card shell: xilinx_u55n_gen3x4_xdma_base_1
+  g++ 11.4.0 (-std=c++17)
+  GNU Make 4.3
+
+Setup:
+  source /tools/Xilinx/Vitis/2022.2/settings64.sh
+  source /opt/xilinx/xrt/setup.sh
+
+Data:
+  .mem weight/LUT files + input_5tokens.mem / golden_5tokens.mem
